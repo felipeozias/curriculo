@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    padding: 30px 0 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.subtitles {
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* ------------ abstract ------------ */
+@media (min-width: 100px) {
+    #abstract {
+        background-color: #e7e6e6;
+        display: flex;
+        width: 80vw;
+        height: 300px;
+        margin: 20px auto 0;
+        border: solid 1px rgba(224, 224, 224, 0.573);
+        border-radius: 10px 10px 0 0;
+    }
+
+    #abstract_l {
+        width: 50%;
+    }
+
+    #abstract_r {
+        width: 50%;
+        padding: 10px 0;
+    }
+
+    #ft_perfil {
+        height: 95%;
+        border: double 2px rgb(206, 206, 206);
+        box-shadow: #00000053 5px 5px 10px;
+        background-color: white;
+    }
+}
+
+
+
+/* ------------ presentation ------------ */
+#presentation {
+    background-color: #e6e6e6;
+}
+
+#social {
+    width: 80vw;
+    margin: auto;
+    background-color: #182153;
+    border-radius: 0 0 10px 10px;
+}
+
+.social {
+    width: 50px;
+    height: 50px;
+}
+
+#name {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#saldation {
+    width: 70vw;
+    padding: 20px 0;
+    margin: 0 auto;
+    font-size: 20px;
+}
+
+
+/* ------------ experience ------------ */
+#experience {}
+
+#experience_l {
+    display: inline-block;
+    padding: 0 10px;
+    /* background-color: #b3b3b3;
+    height: 80px;
+    width: 30vw; */
+}
+
+#experience_r {
+    display: inline-block;
+    padding: 0 10px;
+    /* background-color: #dadada;
+    height: 80px;
+    width: 70vw; */
+}
+
+
+/* ------------ formation ------------ */
+#formation {
+    background-color: #e6e6e6;
+}
+
+#subtitles_l {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+#subtitles_r {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* ------------ skills ------------ */
+#skills {}
