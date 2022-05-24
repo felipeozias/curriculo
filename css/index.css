@@ -8,8 +8,12 @@
 
 main {
     text-align: center;
-    padding: 30px 0 10px;
+    padding: 30px 10px 10px;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 h2 {
@@ -45,6 +49,7 @@ h3 {
     #abstract_r {
         width: 50%;
         padding: 10px 0;
+        text-align: left;
     }
 
     #ft_perfil {
@@ -67,6 +72,7 @@ h3 {
     margin: auto;
     background-color: #182153;
     border-radius: 0 0 10px 10px;
+    box-shadow: #636363 0 5px 10px;
 }
 
 .social {
@@ -87,39 +93,55 @@ h3 {
 }
 
 
-/* ------------ experience ------------ */
-#experience {}
-
-#experience_l {
-    display: inline-block;
-    padding: 0 10px;
-    /* background-color: #b3b3b3;
-    height: 80px;
-    width: 30vw; */
-}
-
-#experience_r {
-    display: inline-block;
-    padding: 0 10px;
-    /* background-color: #dadada;
-    height: 80px;
-    width: 70vw; */
-}
-
-
-/* ------------ formation ------------ */
+/* ------------ experience and formation ------------ */
+#experience,
 #formation {
-    background-color: #e6e6e6;
+    width: 100%;
 }
 
-#subtitles_l {
-    display: inline-block;
-    padding: 0 10px;
+.container {
+    display: flex;
+    width: 100%;
 }
 
-#subtitles_r {
-    display: inline-block;
-    padding: 0 10px;
+#experience_l,
+#formation_l {
+    width: 30%;
+    height: 60px;
+    display: grid;
+    align-content: center;
+}
+
+#experience_r,
+#formation_r {
+    width: 70%;
+    height: 60px;
+    display: grid;
+    align-content: center;
+}
+
+.cor1 #experience_r,
+.cor1 #formation_r {
+    background-image: linear-gradient(to right, #d2faff, #e0fcff);
+    color: black;
+}
+
+.cor1 #experience_l,
+.cor1 #formation_l {
+    background-image: linear-gradient(to right, #004EA3, #0077f7);
+    color: white;
+}
+
+.cor2 #experience_l,
+.cor2 #formation_l {
+    background-image: linear-gradient(to right, #d2faff, #e0fcff);
+    color: black;
+}
+
+.cor2 #experience_r,
+.cor2 #formation_r {
+    background-image: linear-gradient(to right, #004EA3, #0077f7);
+    color: white;
 }
 
 /* ------------ skills ------------ */
